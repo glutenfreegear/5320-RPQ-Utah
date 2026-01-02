@@ -649,7 +649,7 @@ async function generatePDF(): Promise<void> {
     const pdfBuffer = doc.saveToBuffer();
 
     // Convert to blob and download
-    const blob = new Blob([pdfBuffer.asUint8Array()], {
+    const blob = new Blob([pdfBuffer.asUint8Array() as BlobPart], {
       type: "application/pdf",
     });
     const url = URL.createObjectURL(blob);
