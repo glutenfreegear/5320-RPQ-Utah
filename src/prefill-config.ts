@@ -22,10 +22,10 @@ export type PrefillConfig = {
  *   q1_formType: { value: "ATF FORM 4", readonly: true },
  *
  *   // Prefill Q5 fields as editable defaults
- *   q5_agencyName: { value: "MY AGENCY", readonly: false },
- *   q5_officialName: { value: "JOHN DOE", readonly: false },
- *   q5_officialTitle: { value: "CEO", readonly: false },
- *   q5_address: { value: "123 MAIN ST\nANYTOWN, ST 12345", readonly: false },
+ *   q5_agencyName: { value: "UTAH DEPARTMENT OF PUBLIC SAFETY", readonly: true },
+ *   q5_officialName: { value: "BEAU MASON", readonly: true },
+ *   q5_officialTitle: { value: "COMISSIONER", readonly: true },
+ *   q5_address: { value: "4501 S 2700W, SALT LAKE CITY, UT 84129, UNITED STATES", readonly: true },
  *
  *   // Lock UPIN question to "NO"
  *   q8_hasUpin: { value: "NO", readonly: true },
