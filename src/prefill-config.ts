@@ -33,6 +33,13 @@ export type PrefillConfig = {
  * ```
  */
 export const prefillConfig: PrefillConfig = {
+
+  //Prefill Q1 Form Type as Form 4
+  q1_formType: { value: "ATF FORM 4", readonly: false },
+
+  //Prefill Q4 type to Silencer
+  q4a_firearmType: { value: "SILENCER", readonly: false },
+
   // Prefill Q5 fields as editable defaults
   q5_agencyName: { value: "UTAH DEPARTMENT OF PUBLIC SAFETY", readonly: true },
   q5_officialName: { value: "BEAU MASON", readonly: true },
@@ -53,7 +60,15 @@ export const prefillConfig: PrefillConfig = {
   q6k_renounced: { value: "NO", readonly: false},
   q6l_illegal: { value: "NO", readonly: false},
   q6m1_nonimmigrant: { value: "NO", readonly: false},
-   
+
+  // Prefill Q8 UPIN to No
+  q8_hasUpin: { value: "NO", readonly: false},
+
+  // Prefill 9.a to USA
+  q9a_citizenship: { value: "USA", readonly: false},
+
+  // Prefill 9.c to USA
+  q9c_birthCountry: { value: "USA", readonly: false},
 };
 
 // Expose configuration globally for use in form.js
