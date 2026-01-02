@@ -40,19 +40,19 @@ export const prefillConfig: PrefillConfig = {
   q5_address: { value: "4501 S 2700W, SALT LAKE CITY, UT 84129, UNITED STATES", readonly: true },
 
   // Prefill Q6 fields to NO
-  q6a_intent: { value: "NO", readonly: true},
-  q6b_sell: { value: "NO", readonly: true},
-  q6c_indictment: { value: "NO", readonly: true},
-  q6d_convicted: { value: "NO", readonly: true},
-  q6e_fugitive: { value: "NO", readonly: true},
-  q6f_user: { value: "NO", readonly: true},
-  q6g_mental: { value: "NO", readonly: true},
-  q6h_dishonorable: { value: "NO", readonly: true},
-  q6i_restraining: { value: "NO", readonly: true},
-  q6j_domestic: { value: "NO", readonly: true},
-  q6k_renounced: { value: "NO", readonly: true},
-  q6l_illegal: { value: "NO", readonly: true},
-  q6m1_nonimmigrant: { value: "NO", readonly: true},
+  //q6a_intent: { value: "NO", readonly: true},
+  //q6b_sell: { value: "NO", readonly: true},
+  //q6c_indictment: { value: "NO", readonly: true},
+  //q6d_convicted: { value: "NO", readonly: true},
+  //q6e_fugitive: { value: "NO", readonly: true},
+  //q6f_user: { value: "NO", readonly: true},
+  //q6g_mental: { value: "NO", readonly: true},
+  //q6h_dishonorable: { value: "NO", readonly: true},
+  //q6i_restraining: { value: "NO", readonly: true},
+  //q6j_domestic: { value: "NO", readonly: true},
+  //q6k_renounced: { value: "NO", readonly: true},
+  //q6l_illegal: { value: "NO", readonly: true},
+  //q6m1_nonimmigrant: { value: "NO", readonly: true},
    
 };
 
